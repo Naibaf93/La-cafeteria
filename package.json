@@ -1,0 +1,22 @@
+{
+  "name": "la-cafeteria",
+  "version": "1.0.0",
+  "description": "aprendiendo sass, gulp, css y muchas cosas mas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naibaf93/La-cafeteria.git"
+  },
+  "author": "Fabian Huertas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naibaf93/La-cafeteria/issues"
+  },
+  "homepage": "https://github.com/Naibaf93/La-cafeteria#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
