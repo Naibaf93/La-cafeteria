@@ -1,5 +1,7 @@
 body {
   background-color: purple;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 h1 {
