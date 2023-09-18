@@ -1,13 +1,1 @@
-.header {
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  background-color: purple;
-  display: flex;
-}
-
-h1 {
-  color: white;
-}
+.header{display:flex;flex-direction:column}h2{color:green}nav{background-color:blue}body{background-color:purple;display:flex}h1{color:#fff}
