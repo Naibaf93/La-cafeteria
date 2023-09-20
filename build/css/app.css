@@ -370,6 +370,11 @@ h3 {
   padding: 5rem 0;
   position: relative;
 }
+@media (min-width: 768px) {
+  .header {
+    min-height: 70rem;
+  }
+}
 @media (min-width: 480px) {
   .header {
     padding: 4rem;
@@ -397,6 +402,17 @@ h3 {
 }
 .header .header-contend {
   position: relative;
+}
+.header .header-contend h1 {
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-top: 5rem;
+}
+@media (min-width: 768px) {
+  .header .header-contend h1 {
+    margin-top: 10rem;
+  }
 }
 
 .header-inicio {
