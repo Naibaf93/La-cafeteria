@@ -402,3 +402,25 @@ h3 {
 .header-inicio {
   background-image: url(../img/header_inicio.jpg);
 }
+
+.bar {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.bar .logo {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .bar .logo {
+    width: 20rem;
+    margin: 0;
+  }
+}
