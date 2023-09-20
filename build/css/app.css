@@ -372,7 +372,17 @@ h3 {
 }
 @media (min-width: 480px) {
   .header {
-    padding: 2rem 0;
+    padding: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    padding: 2rem;
   }
 }
 .header::before {
