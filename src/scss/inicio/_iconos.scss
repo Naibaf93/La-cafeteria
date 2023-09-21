@@ -4,10 +4,13 @@
 .icons {
     margin-top: 5rem;
     .icons-list {
+        @include m.tablet { 
+            @include m.grid(3, 2rem);
+        }
         li {
             img {
                 margin: 0 auto;
-                width: 12rem;
+                width: 12rem;   
             }
             p {
                 font-family: v.$fuente_cursiva;
