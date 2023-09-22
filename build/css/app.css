@@ -397,18 +397,6 @@ h3 {
   font-size: 3.2rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.bg-white {
-  background-color: #FFF;
-}
-
-.margin-negativo {
-  margin-top: -10rem;
-}
-
 .header {
   padding: 5rem 0;
   position: relative;
@@ -821,4 +809,45 @@ h3 {
   width: 50%;
   height: 0.2rem;
   background-color: #C39C63;
+}
+
+.menu-contend {
+  background-image: url(../img/cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  aspect-ratio: 2/6;
+}
+@media (min-width: 768px) {
+  .menu-contend {
+    aspect-ratio: 2/3;
+  }
+}
+@media (min-width: 1024px) {
+  .menu-contend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    aspect-ratio: 16/6;
+    background-size: 59%;
+    background-position: bottom right;
+  }
+}
+.menu-contend .text p {
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.margin-negativo {
+  margin-top: -10rem;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
 }
