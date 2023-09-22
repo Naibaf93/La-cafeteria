@@ -779,3 +779,42 @@ h3 {
   border-left: 0.5rem solid #5E311E;
   font-size: 2rem;
 }
+
+.proceso-cafe {
+  margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .proceso-cafe {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+  }
+}
+.proceso-cafe:last-of-type {
+  margin-bottom: 0;
+}
+.proceso-cafe:nth-child(even) .text {
+  order: 1;
+}
+.proceso-cafe:nth-child(even) .image {
+  order: 2;
+}
+.proceso-cafe .image,
+.proceso-cafe .text {
+  flex: 1;
+}
+.proceso-cafe .text {
+  margin-top: 1rem;
+}
+.proceso-cafe .text h3 {
+  margin: 0;
+  text-align: left;
+  color: #5E311E;
+}
+.proceso-cafe .text h3::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 0.2rem;
+  background-color: #C39C63;
+}
