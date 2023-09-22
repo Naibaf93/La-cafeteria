@@ -844,6 +844,57 @@ h3 {
   font-size: 2rem;
 }
 
+@media (min-width: 768px) {
+  .contact-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    background-image: url(../img/granos_cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 50%;
+  }
+}
+
+.form .campo {
+  margin-bottom: 2rem;
+}
+.form .campo:last-of-type {
+  margin-bottom: 0;
+}
+.form .campo label {
+  text-transform: uppercase;
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.form .campo input:not([type=submit]),
+.form .campo select {
+  width: 100%;
+  padding: 1rem;
+  border: 0.5rem solid #5E311E;
+}
+.form .campo input[type=submit] {
+  background-color: #5E311E;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  padding: 1rem;
+  color: #FFF;
+  font-size: 2.2rem;
+  font-weight: 700;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.3s;
+}
+.form .campo input[type=submit]:hover {
+  background-color: #C39C63;
+  cursor: pointer;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 .text-center {
   text-align: center;
 }
