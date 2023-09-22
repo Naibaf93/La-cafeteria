@@ -12,7 +12,7 @@ function css( done ) {
     // pasos: 1 - identificar archivo, 2 - Compilar, 3 - Guardar el .css
 
     src('src/scss/app.scss')
-        .pipe( sass({outputStyle: 'expanded'}) )
+        .pipe( sass({outputStyle: 'compressed'}) )
         .pipe( postcss([autoprefixer()]) )
         .pipe( dest('build/css'))
 
